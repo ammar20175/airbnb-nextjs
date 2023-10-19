@@ -9,7 +9,7 @@ import Head from "next/head";
 export default function Home({ exploreData, cardsData }) {
 	console.log(exploreData);
 	return (
-		<div className="">
+		<div className="overflow-y-hidden">
 			<Head>
 				<title>Airbnb</title>
 			</Head>
