@@ -7,9 +7,8 @@ import SmallCard from "@/components/SmallCard";
 import Head from "next/head";
 
 export default function Home({ exploreData, cardsData }) {
-	console.log(exploreData);
 	return (
-		<div className="overflow-y-hidden">
+		<div className="">
 			<Head>
 				<title>Airbnb</title>
 			</Head>
