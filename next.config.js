@@ -4,9 +4,6 @@ const nextConfig = {
 	images: {
 		domains: ["links.papareact.com"],
 	},
-	env: {
-		mapbox_key: "YOUR MAPBOX PUBLIC KEY",
-	},
 };
 
 module.exports = nextConfig;
