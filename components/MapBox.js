@@ -16,7 +16,7 @@ function MapBox({ searchResults }) {
 	return (
 		<Map
 			mapStyle="mapbox://styles/ammar101/clnzozhnr00av01qv7lk8ab1p"
-			mapboxAccessToken={process.env.MAPBOX_KEY}
+			mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_KEY}
 			initialViewState={{
 				latitude: center.latitude,
 				longitude: center.longitude,
